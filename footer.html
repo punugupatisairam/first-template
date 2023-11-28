@@ -1,0 +1,78 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+            margin: 0px;
+            box-sizing: border-box;
+        }
+     .parent{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                margin-top: 40px;
+                background-color: #1a252f;
+                height: 300px;
+                
+            }
+            body{
+               
+                color: white;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                height: 700px;
+            }
+            img{
+                width: 30px;
+                height: 30px;
+            }
+            .footimg{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+
+            }
+            .footimg>img:hover{
+                background-color: white;
+
+            }
+            .copyright{
+                text-align: center;
+                background-color: black;
+                height: 50px;
+                padding: 15px;
+            }
+            .child1{
+                padding: 30px;
+            }
+    </style>
+</head>
+<body>
+    <footer>
+        <div class="parent">
+            <div class="child1">
+                <h1>LOCATION</h1><br>
+                <p>Hyderabad,Kukatpally,Edupoly</p>
+            </div>
+            <div class="child2">
+                <h1 >AROUND THE WORLD</h1><br>
+                <div class="footimg">
+                <img src="..\images\github white.png" alt=""> 
+                <img src="..\images\linkedin logo.png" alt="">
+                <img src="..\images\Naukri logo.png" alt="">
+                <img src="..\images\twitter.svg" alt="">
+                </div>
+            </div>
+            <div class="child3">
+                <h1>ABOUT FREELANCER</h1><br>
+                <p>I am Freelancer I Will Design web apllications <br> and Desktop Applications</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright &copy; your website 2023</p>
+        </div>
+    </footer>
+</body>
+</html>
